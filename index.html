@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/style.css">
-    <title>Document</title>
+    <title>Etch-A-Sketch</title>
 </head>
 <body>
     <div class="wrapper">
@@ -13,8 +13,13 @@
             <div class="buttons">
                 <button class="btn btn-primary">Clear</button>
                 <button class="btn btn-secondary">Grid Size</button>
+                <select name="functionSelector" id="functionSelector" class="btn btn-secondary">
+                    <option value="default">Black&White</option>
+                    <option value="rgbValues">Multicolor</option>
+                    <option value="grayScale">Grayscale</option>
+                </select>
             </div>
-            
+                
             <h1>Etch-a-Sketch</h1>
         </header>
         <div class="container">

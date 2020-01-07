@@ -14,7 +14,7 @@ body {
 /* HEADER */
 header {
     display:grid;
-    grid-template-columns: 2fr 3fr;
+    grid-template-columns: 3fr  3fr;
     margin-top:20px;
     padding-top:10px;
     background:red;
@@ -32,14 +32,14 @@ header h1 {
     line-height:53px;
     margin-top:16px;
     margin-bottom:0;
-    padding-left:180px;
+    padding-left:80px;
     text-align:right;
 }
 /* DRAWING AREA */
 .container {
     display:flex;
     flex-wrap:wrap;
-    background:blue;
+    background:#fff;
     width:960px;
     height:960px;
     border:30px red solid;
